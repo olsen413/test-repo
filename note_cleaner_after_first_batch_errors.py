@@ -46,7 +46,7 @@ def get_title_plus(str_in):
 '''
 The try - except block checks that the shell script below has cleaned the .note
 formatted files:
-    for d in TestScript/*/;
+    for d in TestScript/*/; # or whichever dir the notes are in
     do (cd "$d" && iconv -c -f utf-8 -t latin1 < note.note |
     tr -cd '\11\12\40-\176' > noteConv.txt);
     done
@@ -159,4 +159,4 @@ os.rmdir(sub_path)
 for file in os.listdir(path):
     if file.startswith(file_title):
         print(file)
-        os.rename(path+'/'+file, '/home/wo/Notes/'+file)
+        os.rename(path+'/'+file, #'/yourdir/'+file)
