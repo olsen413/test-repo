@@ -1,6 +1,4 @@
 # test-repo
-test - via earthdatascience.org tutorial
+Code snippets from Samsung Notes to Joplin script
 
-adding a line from atom on desktop
-Some random text
-Some more random text
+Before Notes was available on desktop for AWindows, this was the best option I had to save my many voice memos and organize them
